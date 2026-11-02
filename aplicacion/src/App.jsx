@@ -259,7 +259,7 @@ export default function FunkyFobsApp() {
                     >
                       <Search className="w-4 h-4" />
                     </div>
-                    {cord.image ? <img src={cord.image} alt={cord.name} className="w-full h-full object-cover" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false} /> : <div className="w-full h-full" style={{backgroundColor: cord.hexFallback}} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false} />}
+                    {cord.image ? <img loading="lazy"src={cord.image} alt={cord.name} className="w-full h-full object-cover" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false} /> : <div className="w-full h-full" style={{backgroundColor: cord.hexFallback}} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false} />}
                     
                     {cord.agotado && (
                       <div className="absolute inset-0 flex items-center justify-center z-20 bg-white/30 backdrop-blur-[2px]">
@@ -330,7 +330,7 @@ export default function FunkyFobsApp() {
                     >
                       <Search className="w-3 h-3" />
                     </div>
-                    {knot.image && <img src={knot.image} alt={knot.name} className="w-full h-full object-cover" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false}  />}
+                    {knot.image && <img loading="lazy"src={knot.image} alt={knot.name} className="w-full h-full object-cover" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false}  />}
                   </div>
                   <div>
                     <div className="font-bold text-gray-800">{knot.name}</div>
@@ -378,7 +378,7 @@ export default function FunkyFobsApp() {
                     <Search className="w-3.5 h-3.5" />
                   </div>
                   {clasp.image && (
-                    <img 
+                    <img loading="lazy"
                       src={clasp.image} 
                       alt={clasp.name} 
                       className="w-full h-full object-contain p-2 transition-transform duration-300 hover:scale-110"
@@ -434,7 +434,7 @@ export default function FunkyFobsApp() {
                       <Search className="w-3.5 h-3.5" />
                     </div>
                     {pasador.image ? (
-                      <img src={pasador.image} alt={pasador.name} className="w-full h-full object-contain p-2 transition-transform duration-300 hover:scale-110" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false} />
+                      <img loading="lazy"src={pasador.image} alt={pasador.name} className="w-full h-full object-contain p-2 transition-transform duration-300 hover:scale-110" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false} />
                     ) : (
                       <span className="text-gray-400 font-medium text-sm">Ninguno</span>
                     )}
@@ -493,7 +493,7 @@ export default function FunkyFobsApp() {
                         >
                           <Search className="w-3 h-3" />
                         </div>
-                        {style.image && <img src={style.image} alt={style.name} className="w-full h-full object-cover" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false}  />}
+                        {style.image && <img loading="lazy"src={style.image} alt={style.name} className="w-full h-full object-cover" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false}  />}
                       </div>
                       <span className="text-xs font-bold text-gray-700 text-center">{style.name}</span>
                     </button>
@@ -563,7 +563,7 @@ export default function FunkyFobsApp() {
                         <Search className="w-3.5 h-3.5" />
                       </div>
                       {colgante.image && (
-                        <img 
+                        <img loading="lazy"
                           src={colgante.image} 
                           alt={colgante.name} 
                           className="w-full h-full object-cover transition-transform duration-300 hover:scale-110" 
@@ -590,7 +590,7 @@ export default function FunkyFobsApp() {
       <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-2 md:px-4 h-16 md:h-20 flex items-center justify-between">
           <button onClick={() => setCurrentView('home')} className="hover:scale-105 transition-transform flex items-center gap-2 md:gap-3 shrink-0">
-            <img 
+            <img loading="lazy"
               src="Logo.jpeg" 
               alt="Logo Funky Fobs" 
               className="h-10 w-10 sm:h-14 sm:w-14 rounded-full object-cover shadow-md border-2 border-white shrink-0"
@@ -671,7 +671,7 @@ export default function FunkyFobsApp() {
 
                 <div className="relative flex justify-center items-center h-[400px] md:h-[500px]">
                   <div className="relative w-[85%] h-[85%] bg-pink-100 rounded-[2rem] shadow-2xl shadow-pink-900/20 overflow-hidden group">
-                    <img 
+                    <img loading="lazy"
                       src="/llavero-hero.jpg" 
                       alt="Llavero Personalizado Funky Fobs" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
@@ -704,7 +704,7 @@ export default function FunkyFobsApp() {
                     <div key={item.id} className="group flex flex-col">
                       <div className={`relative aspect-[4/5] ${item.bgColor} rounded-3xl overflow-hidden mb-4 border-8 border-gray-50 transition-transform group-hover:scale-[1.02] duration-300 cursor-pointer`} onClick={() => setPreviewItem(item)}>
                         {item.image ? (
-                          <img src={item.image} alt={item.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 hover:scale-110" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false} />
+                          <img loading="lazy"src={item.image} alt={item.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 hover:scale-110" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} draggable={false} />
                         ) : (
                           <div className="absolute inset-0 flex items-center justify-center text-gray-300 overflow-hidden">
                              <ImageIcon className="w-16 h-16 opacity-20" />

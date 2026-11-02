@@ -24,67 +24,67 @@ export const PAGO_MOVIL_DATA = {
 
 export const CORD_COLORS = [
   // Lote Inicial / Base
-  { id: 'arena', name: 'Arena', image: '/Cuerdas/Cuerda Arena.jpg', hexFallback: '#b8a48b', agotado: false },
-  { id: 'marron', name: 'Marrón', image: '/Cuerdas/Cuerda Marron.jpg', hexFallback: '#5c4033', agotado: false },
-  { id: 'gris', name: 'Gris', image: '/Cuerdas/Cuerda Gris.jpg', hexFallback: '#808080', agotado: false },
-  { id: 'azul', name: 'Azul', image: '/Cuerdas/Cuerda Azul.jpg', hexFallback: '#0000cd', agotado: false },
+  { id: 'arena', name: 'Arena', image: '/Cuerdas/Cuerda Arena.webp', hexFallback: '#b8a48b', agotado: false },
+  { id: 'marron', name: 'Marrón', image: '/Cuerdas/Cuerda Marron.webp', hexFallback: '#5c4033', agotado: false },
+  { id: 'gris', name: 'Gris', image: '/Cuerdas/Cuerda Gris.webp', hexFallback: '#808080', agotado: false },
+  { id: 'azul', name: 'Azul', image: '/Cuerdas/Cuerda Azul.webp', hexFallback: '#0000cd', agotado: false },
 
   // Lote 1
-  { id: 'vino', name: 'Vino', image: '/Cuerdas/Cuerda Vino.PNG', hexFallback: '#581825', agotado: false },
-  { id: 'amarillo-mostaza', name: 'Amarillo Mostaza', image: '/Cuerdas/Cuerda Amarillo Mostaza.PNG', hexFallback: '#e59b00', agotado: false },
-  { id: 'lila-pastel', name: 'Lila Pastel', image: '/Cuerdas/Cuerda Lila Pastel.PNG', hexFallback: '#b39ddb', agotado: false },
-  { id: 'naranja-neon', name: 'Naranja Neón', image: '/Cuerdas/Cuerda Naranja Neon.PNG', hexFallback: '#ff4500', agotado: false },
-  { id: 'turquesa-claro', name: 'Turquesa Claro', image: '/Cuerdas/Cuerda Turquesa Claro.PNG', hexFallback: '#00b4d8', agotado: false },
-  { id: 'fucsia', name: 'Fucsia', image: '/Cuerdas/Cuerda Fucsia.PNG', hexFallback: '#e6007e', agotado: false },
-  { id: 'verde-esmeralda', name: 'Verde Esmeralda', image: '/Cuerdas/Cuerda Verde Esmeralda.PNG', hexFallback: '#008080', agotado: false },
-  { id: 'rojo-patron', name: 'Rojo Patrón', image: '/Cuerdas/Cuerda Rojo Patron.PNG', hexFallback: '#d90429', agotado: false },
-  { id: 'morado-patron', name: 'Morado Patrón', image: '/Cuerdas/Cuerda Morado Patron.PNG', hexFallback: '#7b2cbf', agotado: false },
-  { id: 'azul-cielo', name: 'Azul Cielo', image: '/Cuerdas/Cuerda Azul Cielo.PNG', hexFallback: '#7ec8e3', agotado: false },
+  { id: 'vino', name: 'Vino', image: '/Cuerdas/Cuerda Vino.webp', hexFallback: '#581825', agotado: false },
+  { id: 'amarillo-mostaza', name: 'Amarillo Mostaza', image: '/Cuerdas/Cuerda Amarillo Mostaza.webp', hexFallback: '#e59b00', agotado: false },
+  { id: 'lila-pastel', name: 'Lila Pastel', image: '/Cuerdas/Cuerda Lila Pastel.webp', hexFallback: '#b39ddb', agotado: false },
+  { id: 'naranja-neon', name: 'Naranja Neón', image: '/Cuerdas/Cuerda Naranja Neon.webp', hexFallback: '#ff4500', agotado: false },
+  { id: 'turquesa-claro', name: 'Turquesa Claro', image: '/Cuerdas/Cuerda Turquesa Claro.webp', hexFallback: '#00b4d8', agotado: false },
+  { id: 'fucsia', name: 'Fucsia', image: '/Cuerdas/Cuerda Fucsia.webp', hexFallback: '#e6007e', agotado: false },
+  { id: 'verde-esmeralda', name: 'Verde Esmeralda', image: '/Cuerdas/Cuerda Verde Esmeralda.webp', hexFallback: '#008080', agotado: false },
+  { id: 'rojo-patron', name: 'Rojo Patrón', image: '/Cuerdas/Cuerda Rojo Patron.webp', hexFallback: '#d90429', agotado: false },
+  { id: 'morado-patron', name: 'Morado Patrón', image: '/Cuerdas/Cuerda Morado Patron.webp', hexFallback: '#7b2cbf', agotado: false },
+  { id: 'azul-cielo', name: 'Azul Cielo', image: '/Cuerdas/Cuerda Azul Cielo.webp', hexFallback: '#7ec8e3', agotado: false },
 
   // Lote 2
-  { id: 'turquesa-patron', name: 'Turquesa', image: '/Cuerdas/Cuerda Turquesa Patron.PNG', hexFallback: '#00b4d8', agotado: false },
-  { id: 'borgona', name: 'Borgoña', image: '/Cuerdas/Cuerda Borgona.PNG', hexFallback: '#4a0e17', agotado: false },
-  { id: 'verde-bosque', name: 'Verde Bosque', image: '/Cuerdas/Cuerda Verde Bosque.PNG', hexFallback: '#0b4f2c', agotado: false },
-  { id: 'verde-menta', name: 'Verde Menta', image: '/Cuerdas/Cuerda Verde Menta.PNG', hexFallback: '#60d394', agotado: false },
-  { id: 'vino-patron', name: 'Vino con blanco', image: '/Cuerdas/Cuerda Vino Patron.PNG', hexFallback: '#800020', agotado: false },
-  { id: 'azul-rey-patron', name: 'Azul Rey con blanco', image: '/Cuerdas/Cuerda Azul Rey Patron.PNG', hexFallback: '#0038a8', agotado: false },
-  { id: 'beige-patron', name: 'Beige/blanco', image: '/Cuerdas/Cuerda Beige Patron.PNG', hexFallback: '#c5a059', agotado: false },
-  { id: 'morado-oscuro', name: 'Morado Oscuro', image: '/Cuerdas/Cuerda Morado Oscuro.PNG', hexFallback: '#4a0072', agotado: false },
-  { id: 'amarillo-neon-patron', name: 'Amarillo Neón/Azul', image: '/Cuerdas/Cuerda Amarillo Neon Patron.PNG', hexFallback: '#ccff00', agotado: false },
-  { id: 'azul-marino', name: 'Azul Marino', image: '/Cuerdas/Cuerda Azul Marino.PNG', hexFallback: '#001f3f', agotado: false },
+  { id: 'turquesa-patron', name: 'Turquesa', image: '/Cuerdas/Cuerda Turquesa Patron.webp', hexFallback: '#00b4d8', agotado: false },
+  { id: 'borgona', name: 'Borgoña', image: '/Cuerdas/Cuerda Borgona.webp', hexFallback: '#4a0e17', agotado: false },
+  { id: 'verde-bosque', name: 'Verde Bosque', image: '/Cuerdas/Cuerda Verde Bosque.webp', hexFallback: '#0b4f2c', agotado: false },
+  { id: 'verde-menta', name: 'Verde Menta', image: '/Cuerdas/Cuerda Verde Menta.webp', hexFallback: '#60d394', agotado: false },
+  { id: 'vino-patron', name: 'Vino con blanco', image: '/Cuerdas/Cuerda Vino Patron.webp', hexFallback: '#800020', agotado: false },
+  { id: 'azul-rey-patron', name: 'Azul Rey con blanco', image: '/Cuerdas/Cuerda Azul Rey Patron.webp', hexFallback: '#0038a8', agotado: false },
+  { id: 'beige-patron', name: 'Beige/blanco', image: '/Cuerdas/Cuerda Beige Patron.webp', hexFallback: '#c5a059', agotado: false },
+  { id: 'morado-oscuro', name: 'Morado Oscuro', image: '/Cuerdas/Cuerda Morado Oscuro.webp', hexFallback: '#4a0072', agotado: false },
+  { id: 'amarillo-neon-patron', name: 'Amarillo Neón/Azul', image: '/Cuerdas/Cuerda Amarillo Neon Patron.webp', hexFallback: '#ccff00', agotado: false },
+  { id: 'azul-marino', name: 'Azul Marino', image: '/Cuerdas/Cuerda Azul Marino.webp', hexFallback: '#001f3f', agotado: false },
 
   // Lote 3
-  { id: 'blanco', name: 'Blanco', image: '/Cuerdas/Cuerda Blanco.PNG', hexFallback: '#ffffff', agotado: false },
-  { id: 'amarillo-pastel', name: 'Amarillo Pastel', image: '/Cuerdas/Cuerda Amarillo Pastel.PNG', hexFallback: '#fff176', agotado: false },
-  { id: 'verde-lima-pastel', name: 'Verde Lima Pastel', image: '/Cuerdas/Cuerda Verde Lima Pastel.PNG', hexFallback: '#a3e635', agotado: false },
-  { id: 'azul-turquesa', name: 'Azul Turquesa', image: '/Cuerdas/Cuerda Azul Turquesa.PNG', hexFallback: '#38bdf8', agotado: false },
-  { id: 'fucsia-patron', name: 'Fucsia/Blanco', image: '/Cuerdas/Cuerda Fucsia Patron.PNG', hexFallback: '#d946ef', agotado: false },
-  { id: 'marron-chocolate', name: 'Marrón Chocolate', image: '/Cuerdas/Cuerda Marron Chocolate.PNG', hexFallback: '#5c3d2e', agotado: false },
-  { id: 'terracota', name: 'Terracota', image: '/Cuerdas/Cuerda Terracota.PNG', hexFallback: '#9a3412', agotado: false },
-  { id: 'beige-claro', name: 'Marrón Claro', image: '/Cuerdas/Cuerda Beige Claro.PNG', hexFallback: '#d4b996', agotado: false },
-  { id: 'gris-plomo', name: 'Gris Plomo', image: '/Cuerdas/Cuerda Gris Plomo.PNG', hexFallback: '#4b5563', agotado: false },
-  { id: 'verde-neon', name: 'Verde Neón', image: '/Cuerdas/Cuerda Verde Neon.PNG', hexFallback: '#22c55e', agotado: false },
+  { id: 'blanco', name: 'Blanco', image: '/Cuerdas/Cuerda Blanco.webp', hexFallback: '#ffffff', agotado: false },
+  { id: 'amarillo-pastel', name: 'Amarillo Pastel', image: '/Cuerdas/Cuerda Amarillo Pastel.webp', hexFallback: '#fff176', agotado: false },
+  { id: 'verde-lima-pastel', name: 'Verde Lima Pastel', image: '/Cuerdas/Cuerda Verde Lima Pastel.webp', hexFallback: '#a3e635', agotado: false },
+  { id: 'azul-turquesa', name: 'Azul Turquesa', image: '/Cuerdas/Cuerda Azul Turquesa.webp', hexFallback: '#38bdf8', agotado: false },
+  { id: 'fucsia-patron', name: 'Fucsia/Blanco', image: '/Cuerdas/Cuerda Fucsia Patron.webp', hexFallback: '#d946ef', agotado: false },
+  { id: 'marron-chocolate', name: 'Marrón Chocolate', image: '/Cuerdas/Cuerda Marron Chocolate.webp', hexFallback: '#5c3d2e', agotado: false },
+  { id: 'terracota', name: 'Terracota', image: '/Cuerdas/Cuerda Terracota.webp', hexFallback: '#9a3412', agotado: false },
+  { id: 'beige-claro', name: 'Marrón Claro', image: '/Cuerdas/Cuerda Beige Claro.webp', hexFallback: '#d4b996', agotado: false },
+  { id: 'gris-plomo', name: 'Gris Plomo', image: '/Cuerdas/Cuerda Gris Plomo.webp', hexFallback: '#4b5563', agotado: false },
+  { id: 'verde-neon', name: 'Verde Neón', image: '/Cuerdas/Cuerda Verde Neon.webp', hexFallback: '#22c55e', agotado: false },
 
   // Lote 4
-  { id: 'rojo', name: 'Rojo', image: '/Cuerdas/Cuerda Rojo.PNG', hexFallback: '#dc2626', agotado: false },
-  { id: 'arena-dorado', name: 'Arena Dorado', image: '/Cuerdas/Cuerda Arena Dorado.PNG', hexFallback: '#d4a373', agotado: false },
+  { id: 'rojo', name: 'Rojo', image: '/Cuerdas/Cuerda Rojo.webp', hexFallback: '#dc2626', agotado: false },
+  { id: 'arena-dorado', name: 'Arena Dorado', image: '/Cuerdas/Cuerda Arena Dorado.webp', hexFallback: '#d4a373', agotado: false },
 ];
 
 export const KNOT_TYPES = [
-  { id: 'barril', name: 'Nudo barril', image: '/Nudos/Nudo barril.jpeg', desc: 'Clásico y resistente', agotado: false },
-   { id: 'barril doble', name: 'Nudo barril doble', image: '/Nudos/nudo barril doble.jpeg', desc: 'Doble y resistente', agotado: false },
-   { id: 'nudo doble simple', name: 'Nudo doble simple', image: '/Nudos/nudo sencillo.jpeg', desc: 'Sencillo y resistente', agotado: false },
-   { id: 'nudo simple', name: 'Nudo simple', image: '/Nudos/nudo simple.jpeg', desc: 'Simple y resistente', agotado: false },
+  { id: 'barril', name: 'Nudo barril', image: '/Nudos/Nudo barril.webp', desc: 'Clásico y resistente', agotado: false },
+   { id: 'barril doble', name: 'Nudo barril doble', image: '/Nudos/nudo barril doble.webp', desc: 'Doble y resistente', agotado: false },
+   { id: 'nudo doble simple', name: 'Nudo doble simple', image: '/Nudos/nudo sencillo.webp', desc: 'Sencillo y resistente', agotado: false },
+   { id: 'nudo simple', name: 'Nudo simple', image: '/Nudos/nudo simple.webp', desc: 'Simple y resistente', agotado: false },
 
 ];
 
 export const CLASP_TYPES = [
-  { id: 'argollas', name: 'Argollas', image: '/Mosquetones/Sujertador 1.PNG', agotado: false },
-  { id: 'chupon', name: 'Porta chupon', image: '/Mosquetones/Chupon.PNG', agotado: false },
-  { id: 'argollas 2', name: 'Argollas 2', image: '/Mosquetones/Argollas.PNG', agotado: false },
-  { id: 'click', name: 'Click', image: '/Mosquetones/Click.PNG', agotado: false },
-  { id: 'mosqueton', name: 'Mosqueton', image: '/Mosquetones/Mosquetones.PNG', agotado: false },
-  { id: 'langosta', name: 'Broche Langosta', image: '/Mosquetones/Langosta.PNG', agotado: false }
+  { id: 'argollas', name: 'Argollas', image: '/Mosquetones/Sujertador 1.webp', agotado: false },
+  { id: 'chupon', name: 'Porta chupon', image: '/Mosquetones/Chupon.webp', agotado: false },
+  { id: 'argollas 2', name: 'Argollas 2', image: '/Mosquetones/Argollas.webp', agotado: false },
+  { id: 'click', name: 'Click', image: '/Mosquetones/Click.webp', agotado: false },
+  { id: 'mosqueton', name: 'Mosqueton', image: '/Mosquetones/Mosquetones.webp', agotado: false },
+  { id: 'langosta', name: 'Broche Langosta', image: '/Mosquetones/Langosta.webp', agotado: false }
 ];
 
 export const PASADORES = [
@@ -115,6 +115,7 @@ export const LETTER_STYLES = [
   { id: 'azules', name: 'Azules', image: '/Letras/Letras Azules.jpeg', colorHex: '#0000cd', textColor: 'white', agotado: false },
   { id: 'verdes', name: 'Verdes', image: '/Letras/Letras Verdes.jpeg', colorHex: '#32cd32', textColor: 'white', agotado: false },
   { id: 'naranjas', name: 'Naranjas', image: '/Letras/Letras naranja.jpeg', colorHex: '#ff8c00', textColor: 'white', agotado: false },
+  { id: 'Doradas', name: 'Doradas y Plateadas', image: '/Letras/Letras Doradas.jpeg', colorHex: '#f59e0b', textColor: 'black', agotado: false },
 
   // Nuevos 9 modelos
   { id: 'moradas', name: 'Moradas', image: '/Letras/Letra Moradas.jpeg', colorHex: '#8a52d4', textColor: 'white', agotado: false },
@@ -173,7 +174,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat1', 
     name: 'Llavero Simple', 
-    image: '/Catalogo/Llavero 1 cuerda.jpeg', 
+    image: '/Catalogo/Llavero 1 cuerda.webp', 
     badge: 'Más Vendido', 
     badgeColor: 'bg-pink-100 text-pink-600', 
     bgColor: 'bg-pink-50',
@@ -183,7 +184,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat2', 
     name: 'Llavero Arcoíris', 
-    image: '/Catalogo/Llavero doble cuerda.jpeg', 
+    image: '/Catalogo/Llavero doble cuerda.webp', 
     badge: null, 
     badgeColor: '',
     bgColor: 'bg-blue-50',
@@ -193,7 +194,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat3', 
     name: 'Llavero BTS', 
-    image: '/Catalogo/Llavero Bts.jpeg', 
+    image: '/Catalogo/Llavero Bts.webp', 
     badge: 'Edición Limitada', 
     badgeColor: 'bg-yellow-100 text-yellow-700', 
     bgColor: 'bg-orange-50',
@@ -203,7 +204,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat4', 
     name: 'Llavero cuatro cuerdas', 
-    image: '/Catalogo/Llavero 4 cuerdas.jpeg', 
+    image: '/Catalogo/Llavero 4 cuerdas.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -213,7 +214,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat5', 
     name: 'Llavero con cadena', 
-    image: '/Catalogo/llavero cadena.jpeg', 
+    image: '/Catalogo/llavero cadena.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -223,7 +224,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat6', 
     name: 'Llavero doble sencillo', 
-    image: '/Catalogo/Llavero doble sencillo.jpeg', 
+    image: '/Catalogo/Llavero doble sencillo.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -233,7 +234,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat7', 
     name: 'Llavero Love', 
-    image: '/Catalogo/Llavero Love.jpeg', 
+    image: '/Catalogo/Llavero Love.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -243,7 +244,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat8', 
     name: 'Para tu Celular', 
-    image: '/Catalogo/Celular.jpeg', 
+    image: '/Catalogo/Celular.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -253,7 +254,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat9', 
     name: 'Llavero Perrito', 
-    image: '/Catalogo/Llavero Perrito.jpeg', 
+    image: '/Catalogo/Llavero Perrito.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -263,7 +264,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat10', 
     name: 'Collar Mascota', 
-    image: '/Catalogo/Collar.jpeg', 
+    image: '/Catalogo/Collar.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -273,7 +274,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat11-peq', 
     name: 'Chick (Pequeño - 6cm)', 
-    image: '/Catalogo/Modelo 1.jpeg', 
+    image: '/Catalogo/Modelo 1.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -283,7 +284,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat11-gde', 
     name: 'Chick (Grande - 12cm)', 
-    image: '/Catalogo/Modelo 1.jpeg', 
+    image: '/Catalogo/Modelo 1.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -293,7 +294,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat12', 
     name: 'Doble Nudo con Cadena', 
-    image: '/Catalogo/Llavero doble nudo.jpeg', 
+    image: '/Catalogo/Llavero doble nudo.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -303,7 +304,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat13', 
     name: 'Strap Largo', 
-    image: '/Catalogo/Strap largo  .jpg', 
+    image: '/Catalogo/Strap largo  .webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
@@ -313,7 +314,7 @@ export const CATALOGO_FAVORITOS = [
   { 
     id: 'cat14', 
     name: 'Strap mano', 
-    image: '/Catalogo/Strap de Mano para telefono.jpeg', 
+    image: '/Catalogo/Strap de Mano para telefono.webp', 
     badge: null, 
     badgeColor: '', 
     bgColor: 'bg-pink-50',
